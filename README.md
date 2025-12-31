@@ -119,7 +119,7 @@ Port 10002: Receives from Caller → Forwards to Callee (192.168.0.158:40828)
 ```
 
 ### Architecture Diagram:
-
+```
 Caller (192.168.x.x:12052)
     ↓ sends to 10002
     ↓
@@ -137,6 +137,7 @@ Caller (192.168.x.x:12052)
     ↑
     ↑ sends to 10000
 Callee (192.168.x.y:40828)
+```
 
 ## Limitations
 
@@ -151,8 +152,3 @@ Callee (192.168.x.y:40828)
 - No session cleanup on timeout (SESSION_TIMEOUT is defined but not enforced)
 - No detailed packet statistics or RTP header inspection
 
-
-## References
-
-- [rtpproxy protocol](https://rtpproxy.org/command.html)
--
