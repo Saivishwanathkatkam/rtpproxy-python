@@ -116,10 +116,10 @@ Port 10002: Receives from Caller → Forwards to Callee (192.168.0.158:40828)
                         192.168.0.167:12052
    ↓
 6. Caller receives packet!
-
-
-**Architecture Diagram**
 ```
+
+### Architecture Diagram:
+
 Caller (192.168.x.x:12052)
     ↓ sends to 10002
     ↓
