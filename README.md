@@ -1,4 +1,4 @@
-# Simple RTPProxy (Python) — README
+# Simple RTPProxy (Python)
 
 A lightweight RTP proxy implementation in Python designed to replace the traditional rtpproxy server. This proxy is used in conjunction with **OpenSIPS** to handle RTP/RTCP packet forwarding for VoIP calls while SIP signaling is managed by OpenSIPS.
 
